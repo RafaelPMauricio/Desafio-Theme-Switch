@@ -1,0 +1,45 @@
+:root{
+    --dark: #292C35;
+    --light: #F1F1F1;
+	--label: #111;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light);
+}
+
+#switch-box{
+    background-color: var(--label);
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+#switch > img {
+    flex: 1;
+}
+
+#switch-button{
+    background-color: var(--light);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50.7%;
+    transition: 0.5s;
+}
